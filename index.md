@@ -59,6 +59,18 @@ class ChatServer { //same part from NumberServer.java
 
 ## Part 2:
 
+### The absolute path to my *private* key for logging into `ieng6`.
 
+![Image](43.PNG)
 
+### The absolute path to my *public* key for logging into `ieng6`.
 
+![Image](45.PNG)
+
+### A terminal interaction where I logged into my `ieng6` account *without* being asked for a password.
+
+![Image](5.PNG)
+
+## Part 3:
+
+Implementing what I have learned from week 2 and 3 was a little bit rough at the beginning. This was my first time experimenting with URLs and implementing them into the servers. 
