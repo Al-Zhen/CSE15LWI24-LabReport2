@@ -18,7 +18,7 @@ class Handler implements URLHandler {
             String[] parameters = url.getQuery().split("&");
             //using url.getQuery() like in NumberServer.java, but using '&' to help split up the string when there's a '&' in the link.
             message = parameters[0].split("=")[1];
-            //takes the 's' and then divides it on '=' at index [0] and then some value = our message on index [1]. 
+            //splitting the string, takes the 's' and then divides it on '=' at index [0] and then some value = our message on index [1]. 
             user = parameters[1].split("=")[1];
             //after splitting on '&', takes the second part of 'user' and then divides it on '=' at index [1] and then some value = username on index [1]
  
@@ -47,5 +47,18 @@ class ChatServer { //same part from NumberServer.java
 }
 ```
 
-### Screenshots of using `/add-message`. 
-![Image][1.PNG]
+### Screenshots of using `/add-message`
+
+![Image](1.PNG)
+
+*
+
+![Image](2.PNG)
+
+*
+
+## Part 2:
+
+
+
+
