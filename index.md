@@ -78,7 +78,7 @@ class ChatServer { //same part from NumberServer.java
 
 ### The absolute path to my *public* key for logging into `ieng6`.
 
-![Image](45.PNG)
+![Image](123.PNG)
 
 > Using the same set of instructions as before, I have generated a public key to `/Users/Alex/.ssh/id_ed25519.pub`. Therefore, the path to my private key using the `ls` command to list the contents of a file, would be `c/User/Alex/.ssh/id_ed25519.pub`.
 
