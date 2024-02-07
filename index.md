@@ -80,7 +80,7 @@ class ChatServer { //same part from NumberServer.java
 
 ![Image](123.PNG)
 
-> Using the same set of instructions as before, I have generated a public key to `/Users/Alex/.ssh/id_ed25519.pub`. Therefore, the path to my private key using the `ls` command to list the contents of a file, would be `c/User/Alex/.ssh/id_ed25519.pub`.
+> Using the same set of instructions as before, I have generated a public key to `/Users/Alex/.ssh/id_ed25519.pub`. After that, I logged into my remote account `alzhen@ieng6.ucsd.edu` and using `ls ~/.ssh/authorized_keys`, it gave me an absolute path for my public key, which is `/home/linux/ieng6/oce/15/715/alzhen/.ssh/authorized_keys`.
 
 
 ### A terminal interaction where I logged into my `ieng6` account *without* being asked for a password.
